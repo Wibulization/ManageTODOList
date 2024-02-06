@@ -115,7 +115,7 @@ public class ManageList {
     }
 
     // Scenario: View the TODO list
-    @Given("the user has a TODO list with tasks:")
+    @Given("the user has a TODO list with tasks 2:")
     public void the_user_has_a_todo_list_with_tasks2(List<String> tasks) {
         list.clearTodoList();
         for (String task : tasks) {
@@ -135,7 +135,7 @@ public class ManageList {
     }
 
     // // Scenario: Clear the entire TODO list
-    @Given("the user has a TODO list with tasks:")
+    @Given("the user has a TODO list with tasks 3:")
     public void the_user_has_a_todo_list_with_tasks3(List<String> tasks) {
         list.clearTodoList();
         for (String task : tasks) {
